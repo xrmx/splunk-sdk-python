@@ -24,7 +24,7 @@ from __future__ import absolute_import
 from __future__ import print_function
 import sys, os, urllib2, json
 from six.moves import zip
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 from xml.etree import ElementTree
 
 import splunklib.client as client

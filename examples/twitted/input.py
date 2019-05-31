@@ -27,7 +27,7 @@ import sys
 import os
 from splunklib import six
 from six.moves import input
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 
 
 import splunklib.client as client

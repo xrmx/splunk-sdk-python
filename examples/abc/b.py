@@ -17,7 +17,7 @@
 from __future__ import absolute_import
 from __future__ import print_function
 import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 
 from xml.etree import ElementTree
 

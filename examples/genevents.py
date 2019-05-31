@@ -21,7 +21,7 @@ from __future__ import print_function
 import socket
 import sys, os
 from six.moves import range
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 import time
 import datetime
 from splunklib.client import connect

@@ -20,7 +20,7 @@ from __future__ import absolute_import
 from pprint import pprint
 import socket
 import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 
 from splunklib.client import connect
 import splunklib.results as results

@@ -32,7 +32,7 @@ from io import BytesIO
 from pprint import pprint
 import sys, os
 import ssl
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 
 from splunklib.six.moves import urllib
 

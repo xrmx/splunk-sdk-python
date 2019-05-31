@@ -23,7 +23,7 @@ from __future__ import print_function
 import sys
 import os
 import time
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 import splunklib.client as client
 
 try:

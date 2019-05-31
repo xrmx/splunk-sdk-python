@@ -25,7 +25,7 @@ from __future__ import print_function
 import sys, os, datetime
 import urllib
 import ssl
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 
 import splunklib.binding as binding
 import splunklib.client as client
